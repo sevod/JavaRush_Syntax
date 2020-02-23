@@ -1,2 +1,1 @@
-# lessons JavaRush
-# JavaRush_JavaSyntax
+# JavaRush_Syntax
