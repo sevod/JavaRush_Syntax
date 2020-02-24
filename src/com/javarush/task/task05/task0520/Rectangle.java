@@ -1,35 +1,35 @@
-package com.javarush.task.task05.task0513;
+package com.javarush.task.task05.task0520;
 
 /* 
-Собираем прямоугольник
+Создать класс прямоугольник (Rectangle)
 */
+
 
 public class Rectangle {
     private int top, left, width, height;
 
-    public void initialize(int top, int left, int width, int height){
+    public Rectangle(int top, int left, int width, int height){
         this.top = top;
         this.left = left;
         this.width = width;
         this.height = height;
     }
 
-    public void initialize(int top, int left, int width){
+    public Rectangle(int top, int left, int width){
         this.top = top;
         this.left = left;
         this.width = width;
     }
 
-    public void initialize(int top, int left){
+    public Rectangle(int top, int left){
         this.top = top;
         this.left = left;
     }
 
-    public void initialize(int top){
+    public Rectangle(int top){
         this.top = top;
         this.left = top;
     }
-
 
     public static void main(String[] args) {
 
