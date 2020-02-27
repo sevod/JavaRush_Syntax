@@ -37,6 +37,7 @@ public class Solution {
         System.out.println(catMother);
 
         System.out.println(catSon);
+
         System.out.println(catDaughter);
     }
 
@@ -45,12 +46,13 @@ public class Solution {
         private Cat father;
         private Cat mother;
 
+
         Cat(String name) {
             this.name = name;
         }
 
-
         Cat(String name, Cat father, Cat mother) {
+
             this.name = name;
             this.father = father;
             this.mother = mother;

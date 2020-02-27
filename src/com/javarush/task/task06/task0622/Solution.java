@@ -23,7 +23,7 @@ public class Solution {
                 m = n1;
                 n1 = n2;
                 n2 = m;
-                
+
             }
             if (n2 > n3) {
                 m = n2;
